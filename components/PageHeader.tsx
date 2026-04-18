@@ -8,7 +8,7 @@ interface PageHeaderProps {
 
 const PageHeader: React.FC<PageHeaderProps> = ({ title, subtitle, breadcrumb }) => {
   return (
-    <section className="relative pt-40 pb-24 bg-primary overflow-hidden">
+    <section className="relative pt-44 pb-24 bg-primary overflow-hidden">
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 right-0 w-96 h-96 bg-secondary rounded-full blur-3xl -mr-48 -mt-48"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-tertiary rounded-full blur-3xl -ml-48 -mb-48"></div>

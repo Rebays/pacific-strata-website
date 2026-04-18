@@ -17,7 +17,7 @@ const Capabilities = () => {
           <div className="group relative bg-surface-container-lowest p-8 rounded-xl shadow-none hover:shadow-2xl transition-all duration-500 overflow-hidden border border-transparent hover:border-outline-variant/20">
             <div className="relative z-10">
               <span className="material-symbols-outlined text-4xl text-secondary mb-6 block">water_drop</span>
-              <h3 className="font-headline text-2xl font-bold text-primary mb-4">Water Well Drilling</h3>
+              <h3 className="font-headline text-2xl font-bold text-primary mb-4">Water Well</h3>
               <p className="text-on-surface-variant leading-relaxed mb-6">Sustainable water access solutions utilizing advanced aquifer mapping and high-precision extraction systems.</p>
               <a className="inline-flex items-center gap-2 font-bold text-secondary group-hover:gap-4 transition-all" href="#">
                 Learn More <span className="material-symbols-outlined text-sm">arrow_forward</span>
@@ -30,7 +30,7 @@ const Capabilities = () => {
           <div className="group relative bg-primary p-8 rounded-xl shadow-none overflow-hidden">
             <div className="relative z-10">
               <span className="material-symbols-outlined text-4xl text-secondary-container mb-6 block">engineering</span>
-              <h3 className="font-headline text-2xl font-bold text-white mb-4">Geotechnical Services</h3>
+              <h3 className="font-headline text-2xl font-bold text-white mb-4">Geotechnical</h3>
               <p className="text-surface-container-high/70 leading-relaxed mb-6">Detailed subsurface characterization and foundation engineering for infrastructure development in complex terrains.</p>
               <a className="inline-flex items-center gap-2 font-bold text-secondary-container group-hover:gap-4 transition-all" href="#">
                 Learn More <span className="material-symbols-outlined text-sm">arrow_forward</span>
@@ -42,15 +42,15 @@ const Capabilities = () => {
           </div>
           <div className="group relative bg-surface-container-lowest p-8 rounded-xl shadow-none hover:shadow-2xl transition-all duration-500 overflow-hidden border border-transparent hover:border-outline-variant/20">
             <div className="relative z-10">
-              <span className="material-symbols-outlined text-4xl text-tertiary mb-6 block">eco</span>
-              <h3 className="font-headline text-2xl font-bold text-primary mb-4">Environmental Exploration</h3>
-              <p className="text-on-surface-variant leading-relaxed mb-6">Precision sampling and site assessments designed to meet the highest regulatory and environmental standards.</p>
+              <span className="material-symbols-outlined text-4xl text-tertiary mb-6 block">diamond</span>
+              <h3 className="font-headline text-2xl font-bold text-primary mb-4">Mineral Exploration</h3>
+              <p className="text-on-surface-variant leading-relaxed mb-6">Precision sampling and resource definition designed to meet the highest regulatory and industry standards.</p>
               <a className="inline-flex items-center gap-2 font-bold text-secondary group-hover:gap-4 transition-all" href="#">
                 Learn More <span className="material-symbols-outlined text-sm">arrow_forward</span>
               </a>
             </div>
             <div className="absolute bottom-0 right-0 opacity-5 group-hover:scale-110 transition-transform">
-              <span className="material-symbols-outlined text-[120px]">forest</span>
+              <span className="material-symbols-outlined text-[120px]">mining</span>
             </div>
           </div>
         </div>

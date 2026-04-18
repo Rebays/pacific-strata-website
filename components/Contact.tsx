@@ -10,15 +10,15 @@ const Contact = () => {
           <div className="space-y-6">
             <div className="flex items-center gap-4">
               <span className="material-symbols-outlined text-secondary">location_on</span>
-              <span className="font-semibold">San Francisco, CA / Vancouver, BC</span>
+              <span className="font-semibold">Honiara, Solomon Islands</span>
             </div>
             <div className="flex items-center gap-4">
               <span className="material-symbols-outlined text-secondary">mail</span>
-              <span className="font-semibold">contact@pacificstrata.com</span>
+              <span className="font-semibold">pacificstratadrilling@gmail.com</span>
             </div>
             <div className="flex items-center gap-4">
               <span className="material-symbols-outlined text-secondary">phone</span>
-              <span className="font-semibold">+1 (800) STRATA-01</span>
+              <span className="font-semibold">+677 76 14639</span>
             </div>
           </div>
         </div>
@@ -35,9 +35,9 @@ const Contact = () => {
             <div className="md:col-span-2">
               <label className="block font-label text-xs font-bold uppercase tracking-widest text-outline mb-3">Service Type</label>
               <select className="w-full bg-white border-none rounded-lg focus:ring-2 focus:ring-primary p-4 transition-all appearance-none">
-                <option>Water Well Drilling</option>
-                <option>Geotechnical Analysis</option>
-                <option>Environmental Site Assessment</option>
+                <option>Water Well</option>
+                <option>Geotechnical</option>
+                <option>Mineral Exploration</option>
                 <option>Other Specialized Services</option>
               </select>
             </div>

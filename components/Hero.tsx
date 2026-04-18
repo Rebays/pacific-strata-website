@@ -1,22 +1,24 @@
 import React from 'react';
-
+import Image from 'next/image';
 const Hero = () => {
   return (
-    <section className="relative min-h-[921px] flex items-center pt-20 overflow-hidden">
-      <div className="absolute inset-0 z-0">
-        <img
-          className="w-full h-full object-cover"
+    <section className="relative min-h-screen flex items-center pt-32 overflow-hidden">
+      <div className="absolute inset-0 z-0 h-auto">
+        <Image
+
           alt="Cinematic wide shot of a massive specialized drilling rig at dawn"
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuCRdjM3JTb-iu6HTqY4BpF0sxFxf7RweRnNUior0Rnyl-juUqcG89maAYUXvd6tMhJBzOK_hc8P1A2-OR9j4PbnrVP7H53kNy2jg3N8sPeEP2w_Gcy0HO94Gusl8ABtLwZpFAslH4muZJfl4xoAAjzaRi8XsOfSF18WhGv500NBPDW8aNSQfXFMheGiDZJurD-WIexq6aorebii9Z8p3tmYa1QGHH4vDBvp0L4hq72zlrnK1HzuRxZEWMnR2Ap4Inefh7iiVwrP9g"
+          src="/hero1-bg.png"
+          fill
+          className="w-auto h-auto object-cover "
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-transparent"></div>
       </div>
       <div className="relative z-10 max-w-7xl mx-auto px-8 w-full">
         <div className="max-w-2xl">
-          <div className="flex items-center gap-4 mb-6">
+          {/* <div className="flex items-center gap-4 mb-6">
             <div className="strata-scroll-bar"></div>
             <span className="font-label text-sm uppercase tracking-widest text-secondary-container font-bold">Engineering Excellence</span>
-          </div>
+          </div> */}
           <h1 className="font-headline text-6xl md:text-7xl font-extrabold text-white leading-[1.1] tracking-tighter mb-6">
             Precision Engineering for Subsurface Success.
           </h1>
