@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface-container: #d8f2ff;
+  --color-on-primary-fixed: #001e2e;
+  --color-background: #f3faff;
+  --color-on-tertiary: #ffffff;
+  --color-surface-bright: #f3faff;
+  --color-on-error: #ffffff;
+  --color-surface-tint: #2e6384;
+  --color-error: #ba1a1a;
+  --color-on-surface: #021f29;
+  --color-tertiary-fixed: #ccead1;
+  --color-inverse-on-surface: #dff4ff;
+  --color-tertiary-fixed-dim: #b1ceb6;
+  --color-on-error-container: #93000a;
+  --color-outline-variant: #c1c7ce;
+  --color-surface-container-lowest: #ffffff;
+  --color-tertiary-container: #3b5543;
+  --color-primary: #003c58;
+  --color-tertiary: #253e2d;
+  --color-secondary-fixed-dim: #ffb59d;
+  --color-surface-container-low: #e6f6ff;
+  --color-surface-container-high: #d1ecfa;
+  --color-on-primary: #ffffff;
+  --color-inverse-primary: #9accf2;
+  --color-on-tertiary-container: #acc8b1;
+  --color-secondary-fixed: #ffdbd0;
+  --color-on-secondary: #ffffff;
+  --color-on-primary-container: #95c7ec;
+  --color-on-primary-fixed-variant: #0d4b6b;
+  --color-surface-variant: #cbe7f5;
+  --color-on-tertiary-fixed-variant: #334c3a;
+  --color-outline: #71787e;
+  --color-on-secondary-fixed: #390b00;
+  --color-secondary: #95482e;
+  --color-on-background: #021f29;
+  --color-secondary-container: #ff9d7d;
+  --color-on-secondary-fixed-variant: #773119;
+  --color-on-secondary-container: #78321a;
+  --color-primary-container: #1b5474;
+  --color-surface-container-highest: #cbe7f5;
+  --color-on-surface-variant: #41484d;
+  --color-inverse-surface: #19343e;
+  --color-on-tertiary-fixed: #072011;
+  --color-surface-dim: #c3deec;
+  --color-surface: #f3faff;
+  --color-error-container: #ffdad6;
+  --color-primary-fixed: #c8e6ff;
+  --color-primary-fixed-dim: #9accf2;
+
+  --font-headline: "Manrope", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Inter", sans-serif;
+
+  --radius-DEFAULT: 0.125rem;
+  --radius-lg: 0.25rem;
+  --radius-xl: 0.5rem;
+  --radius-full: 0.75rem;
+}
+
+@layer base {
+  body {
+    @apply bg-background font-body text-on-surface;
+  }
+}
+
+@layer components {
+  .material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+  }
+  .strata-scroll-bar {
+    width: 4px;
+    height: 100px;
+    background-color: #95482e;
+  }
+  .glass-panel {
+    background: rgba(216, 242, 255, 0.4);
+    backdrop-filter: blur(16px);
+  }
+  .text-shadow-sm {
+    text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+}
