@@ -43,10 +43,10 @@ const Navbar = () => {
           <Link href="/" className="flex items-center gap-2 md:gap-3" onClick={() => setIsMenuOpen(false)}>
             <img
               alt="Pacific Strata Logo"
-              className={`h-8 md:h-10 w-auto transition-all ${isTransparent ? 'brightness-0 invert' : ''}`}
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUu1Slm5rEsdiy6BIvf42EgjXUyzYX5xEOUFHfxUYNpkjWzfE_ToFVAj32EVRFJuKiif7TpOMXJ0w3PL-xXpeIm1q5Z_mVxVdySBAKRMLP0CU2DETgS9Q2I6EB95_D2ZAtxQTcKgsgxiI6gxQxxTHbVMU90YAGVMesqBM5aSSnB9mabWJyfDTF09S0W2UOVr5SaJQzBPAUsaskUXhydOMUP57IY_DEDzOyrDx_9KtfD5uL4-U-VKsQd9HRjK1Hpx10MqABAHE3QA"
+              className={`h-8 md:h-24 w-auto transition-all ${isTransparent ? 'brightness-0 invert' : ''}`}
+              src={isTransparent ? "/strata-logo-white.png" : "/strata-logo-color.png"}
             />
-            <span className={`font-headline text-lg md:text-xl font-black tracking-tighter transition-colors ${textClasses}`}>PACIFIC STRATA</span>
+            {/* <span className={`font-headline text-lg md:text-xl font-black tracking-tighter transition-colors ${textClasses}`}>PACIFIC STRATA</span> */}
           </Link>
         </div>
 
