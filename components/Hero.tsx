@@ -29,7 +29,7 @@ const Hero = () => {
             <button className="bg-secondary-container text-on-secondary-container px-8 py-4 rounded-lg font-bold text-lg hover:brightness-110 transition-all">
               Request a Quote
             </button>
-            <button className="glass-panel text-white px-8 py-4 rounded-lg font-bold text-lg outline-variant/20 outline-1 border border-white/20">
+            <button className="hidden md:block lg:block glass-panel text-white px-8 py-4 rounded-lg font-bold text-lg outline-variant/20 outline-1 border border-white/20">
               Our Capabilities
             </button>
           </div>
