@@ -43,7 +43,7 @@ const Navbar = () => {
           <Link href="/" className="flex items-center gap-2 md:gap-3" onClick={() => setIsMenuOpen(false)}>
             <img
               alt="Pacific Strata Logo"
-              className={`h-8 md:h-24 w-auto transition-all ${isTransparent ? 'brightness-0 invert' : ''}`}
+              className={`h-28 md:h-24 w-auto transition-all ${isTransparent ? 'brightness-0 invert' : ''}`}
               src={isTransparent ? "/strata-logo-white.png" : "/strata-logo-color.png"}
             />
             {/* <span className={`font-headline text-lg md:text-xl font-black tracking-tighter transition-colors ${textClasses}`}>PACIFIC STRATA</span> */}
